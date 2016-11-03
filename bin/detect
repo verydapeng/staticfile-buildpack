@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
 
+echo "hello world statick buildpack"
+
 BP=$(dirname $(dirname $0))
 
 if [ -f $1/Staticfile ]; then
